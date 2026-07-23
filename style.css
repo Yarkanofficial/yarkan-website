@@ -112,3 +112,59 @@ footer{
     transform:scale(1.05);
     background:#16a34a;
 }
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(180deg,#0b1020,#111827);
+}
+
+.hero-logo{
+    width:180px;
+    margin-bottom:25px;
+    animation:float 3s ease-in-out infinite;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#22c55e;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:700px;
+    margin:20px auto;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn,.btn2{
+    display:inline-block;
+    padding:15px 35px;
+    margin:10px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn{
+    background:#22c55e;
+    color:white;
+}
+
+.btn2{
+    border:2px solid #22c55e;
+    color:#22c55e;
+}
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+
+}
