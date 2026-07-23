@@ -300,3 +300,58 @@ footer{
     font-size:14px;
     color:#888;
 }
+@media (max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero-logo{
+    width:120px;
+}
+
+}@media (max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero-logo{
+    width:120px;
+}
+
+}
