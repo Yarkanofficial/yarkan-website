@@ -369,3 +369,55 @@ opacity:1;
 transform:translateY(0);
 
 }
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:64px;
+    color:#22c55e;
+    margin-top:20px;
+}
+
+.hero h2{
+    font-size:28px;
+    color:white;
+    margin:15px 0;
+}
+
+.hero p{
+    max-width:700px;
+    margin:20px auto;
+    color:#cfcfcf;
+    font-size:18px;
+}
+
+.hero-buttons{
+    margin-top:35px;
+}
+
+.hero-buttons a{
+    display:inline-block;
+    margin:10px;
+    padding:15px 35px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.buy-btn{
+    background:#22c55e;
+    color:white;
+}
+
+.x-btn{
+    background:#111827;
+    border:2px solid #22c55e;
+    color:#22c55e;
+}
+
+.tg-btn{
+    background:#2563eb;
+    color:white;
+}
